@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gothic A1", sans-serif;
+  /* Black Han Sans', sans-serif; */
+}
+
+body {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(181, 203, 224);
+  color: rgb(111, 149, 189);
+  margin: 16px 0;
+  border-radius: 5px;
+}
+
+.moto {
+  line-height: 36px;
+  background-color: rgb(208, 222, 235);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  color: black;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+nav {
+  display: inline;
+}
+
+.blue {
+  color: rgb(58, 120, 177);
+}
+
+.green {
+  color: rgb(142 190 114);
+}
+
+.red {
+  color: rgb(230, 79, 134);
+}
+
+.header-content {
+  padding: 5px;
+}
+
+.content-title {
+  font-size: 24px;
+  color: rgb(24, 69, 106);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.h-con {
+  font-size: 12px;
+}
+
+.notif {
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content:nth-child(n + 1) {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.content:last-child {
+  border: none !important;
+}
